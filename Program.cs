@@ -40,6 +40,7 @@ namespace Test
             //     list.Add("a");
             // }
             
+            // Elapsed: 0.1ms
             TestObject testObject = new TestObject("Testy");
 
             Console.WriteLine("took=" + (DateTime.UtcNow - before).TotalMilliseconds + "ms");
